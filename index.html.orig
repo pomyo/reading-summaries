@@ -37,7 +37,6 @@
         <ul>
             <li><a href="#tab1">Javascript</a></li>
             <li><a href="#tab2">DOM</a></li>
-            <li><a href="#tab3">Javascript Functions</a></li> 
         </ul>
 
         <div class="tab" id="tab1">
@@ -81,24 +80,6 @@
                     a modeling company (browser). They would create a 3D model of the blueprint's specifications or outright build the property. 
                     
                     Now the designer can do it's work to interact with the infrastructure.
-            </p>
-        </div>
-
-        <div class="tab" id="tab3">
-            <p>
-                A javascript function is a subprogram that allows a certain task to be performed out of order. It's a saved set of instructions that can 
-                
-                be reused later on to accomplish a task. To put it into an analogy, functions are like your browser bookmark or your TV channel shortcut 
-                
-                on the remote or that saved default pizza order you had on Dominoes.com. To use a function is to 'Invoke' a function and sometimes functions 
-                
-                take in things like arguments. No, it's not your pointless bickering with your best friend argument. It's input given to the function in order 
-                
-                to determine what it gives back. And giving back is what it does, javascript functions always return something even when nothing is specified. 
-
-                Functions are also Objects. Objects are like the grand daddy of functions. Every function are classified as objects as well. Why is this important? 
-                
-                Because in javascript, functions arguments can be objects. This means that a function itself can be passed as an argument to another function!    
             </p>
         </div>
 
