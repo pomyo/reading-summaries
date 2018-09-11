@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,24 +13,27 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 
     <script>
-            $( function() {
-                $( "#tabs" ).tabs();
-            });
+        $(function () {
+            $("#tabs").tabs();
+        });
     </script>
     <style>
         body {
-            background-color: whitesmoke;        }
-        
+            background-color: whitesmoke;
+        }
+
         .tab {
             font-family: 'Titillium Web', sans-serif;
             color: #c6c6c6;
         }
 
         .ui-tabs .ui-tabs-panel {
-            background-color: rgba(57, 57, 57, 0.6);;
+            background-color: rgba(57, 57, 57, 0.6);
+            ;
         }
     </style>
 </head>
+
 <body>
 
 
@@ -37,72 +41,106 @@
         <ul>
             <li><a href="#tab1">Javascript</a></li>
             <li><a href="#tab2">DOM</a></li>
-            <li><a href="#tab3">Javascript Functions</a></li> 
+            <li><a href="#tab3">Javascript Functions</a></li>
+            <li><a href="#tab4">Best Practices</a></li>
         </ul>
 
         <div class="tab" id="tab1">
             <p>
-                    JavaScript is a programming language that allows us to control what happens in a website.
-    
-                    Like many other languages it has basic things like statements, expressions, operators, types and values.
-                    
-                    What the heck are those? Well those are simply some basic categories of objects that allow programming to happen.
-                    
-                    For example, if we wanted to do math, we'd need operators like +,-,*,/ in order to tell the browser to perform these behavior.
-                    
-                    JavaScript also have loops and conditionals to help us not write repeated code. Let's say we wanted to add 1 to a number 1000 times.
-                    
-                    Can you imagine typing "number = number + 1" a thousand times? Of course not! Luckily, JavaScript, like any programming languages, 
-                    
-                    saves us the punishment by using loops so that at the end of the day, we're writing at most 2 lines!
-                    
-                    While JavaScript have many nice features, it's truly special in that it's an interpreted language. What does this mean? 
-                    
-                    Being an interpreted language makes JavaScript runnable in any modern browser without having to compile. This means if several lines 
-                    
-                    of code were added, it would only take refresh the browser to see the changes immediately!
-    
+                JavaScript is a programming language that allows us to control what happens in a website. Like many
+                other languages it has
+                basic things like statements, expressions, operators, types and values. What the heck are those? Well
+                those
+                are simply some basic categories of objects that allow programming to happen. For example, if we wanted
+                to
+                do math, we'd need operators like +,-,*,/ in order to tell the browser to perform these behavior.
+                JavaScript
+                also have loops and conditionals to help us not write repeated code. Let's say we wanted to add 1 to a
+                number
+                1000 times. Can you imagine typing "number = number + 1" a thousand times? Of course not! Luckily,
+                JavaScript,
+                like any programming languages, saves us the punishment by using loops so that at the end of the day,
+                we're
+                writing at most 2 lines! While JavaScript have many nice features, it's truly special in that it's an
+                interpreted
+                language. What does this mean? Being an interpreted language makes JavaScript runnable in any modern
+                browser
+                without having to compile. This means if several lines of code were added, it would only take refresh
+                the
+                browser to see the changes immediately!
+
             </p>
         </div>
         <div class="tab" id="tab2">
             <p>
-                    DOM, also known as Document Object Model, is an object created by the browser to represent the html it's currently displaying. 
-                    
-                    It allows javascript to manipulate the html it represents in order to interact with it. Now what does this mean? 
-                    
-                    It means that in order for javascript to actually do anything in a website, the browser needs to build something that it can touch.
-                    
-                    Imagine creating a blueprint on a construction site. Everything is written on paper (HTML). 
-                    
-                    If a interior designer (javascript) comes along and decides that they wanted to change certain things like the color of the wall or 
-                    
-                    have the furniture be placed a certain way, it would be somewhat difficult for them to do. Now along comes a construction company or 
-                    
-                    a modeling company (browser). They would create a 3D model of the blueprint's specifications or outright build the property. 
-                    
-                    Now the designer can do it's work to interact with the infrastructure.
+                DOM, also known as Document Object Model, is an object created by the browser to represent the html
+                it's currently displaying.
+                It allows javascript to manipulate the html it represents in order to interact with it. Now what does
+                this
+                mean? It means that in order for javascript to actually do anything in a website, the browser needs to
+                build
+                something that it can touch. Imagine creating a blueprint on a construction site. Everything is written
+                on
+                paper (HTML). If a interior designer (javascript) comes along and decides that they wanted to change
+                certain
+                things like the color of the wall or have the furniture be placed a certain way, it would be somewhat
+                difficult
+                for them to do. Now along comes a construction company or a modeling company (browser). They would
+                create
+                a 3D model of the blueprint's specifications or outright build the property. Now the designer can do
+                it's
+                work to interact with the infrastructure.
             </p>
         </div>
 
         <div class="tab" id="tab3">
             <p>
-                A javascript function is a subprogram that allows a certain task to be performed out of order. It's a saved set of instructions that can 
-                
-                be reused later on to accomplish a task. To put it into an analogy, functions are like your browser bookmark or your TV channel shortcut 
-                
-                on the remote or that saved default pizza order you had on Dominoes.com. To use a function is to 'Invoke' a function and sometimes functions 
-                
-                take in things like arguments. No, it's not your pointless bickering with your best friend argument. It's input given to the function in order 
-                
-                to determine what it gives back. And giving back is what it does, javascript functions always return something even when nothing is specified. 
+                A javascript function is a subprogram that allows a certain task to be performed out of order. It's a
+                saved set of instructions
+                that can be reused later on to accomplish a task. To put it into an analogy, functions are like your
+                browser
+                bookmark or your TV channel shortcut on the remote or that saved default pizza order you had on
+                Dominoes.com.
+                To use a function is to 'Invoke' a function and sometimes functions take in things like arguments. No,
+                it's
+                not your pointless bickering with your best friend argument. It's input given to the function in order
+                to
+                determine what it gives back. And giving back is what it does, javascript functions always return
+                something
+                even when nothing is specified. Functions are also Objects. Objects are like the grand daddy of
+                functions.
+                Every function are classified as objects as well. Why is this important? Because in javascript,
+                functions
+                arguments can be objects. This means that a function itself can be passed as an argument to another
+                function!
+            </p>
+        </div>
 
-                Functions are also Objects. Objects are like the grand daddy of functions. Every function are classified as objects as well. Why is this important? 
-                
-                Because in javascript, functions arguments can be objects. This means that a function itself can be passed as an argument to another function!    
+        <div class="tab" id="tab4">
+            <p>
+                Best practices are like having a great routine. Once you get it down, things are just smooth and easy
+                in life. As such, coding in JavaScript should not be an exception. With the bazillion frameworks out
+                there for this amazing language, it's hard keep track of things in your IDE battlefield. But luckily,
+                there are established conventions to help us from people who've already bit the bullet (no pun
+                intended).
+
+                Avoiding globals - Global variables are like a big red flag that everyone in your code can see. Sure
+                there's no avoiding globals completely, but it's a good idea to not have more than you need since they
+                can easily be changed by accident.
+
+                Stick to a strict coding style - What's an army without discipline? Yes, modern browsers will babysit
+                the code by sanitizing your code before compiling but that may not always be the case. Not declaring
+                var, const or let for your variables is like mislabeling your armory arsenal. You don't want to bring a
+                knife (let) to a gun (const) fight do you?
+
+                Commenting as much as needed - The power of commenting is highly underestimated. Not only does it helps
+                other people read your code, it helps YOU read your code. After all, nobody wants to spend hours
+                decyphering BadShakespeare.js
             </p>
         </div>
 
     </div>
 
 </body>
+
 </html>
