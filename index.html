@@ -44,6 +44,7 @@
             <li><a href="#tab3">Javascript Functions</a></li>
             <li><a href="#tab4">Best Practices</a></li>
             <li><a href="#tab5">Node Js</a></li>
+            <li><a href="#tab6">NoSql vs Relational Databases</a></li>
         </ul>
 
         <div class="tab" id="tab1">
@@ -141,22 +142,61 @@
         </div>
 
         <div class="tab" id="tab5">
-        <p>
-            While JavaScript is one of the most popular programming languages in the modern world today, its dependency
-            on having a browser run its code limits it's potential to becoming a general purpose language. What if
-            there is a way to run JavaScript without firing Chrome or Firefox or any browser for that matter? Enter
-            Node.js. As a brain child of Ryan Dahl, Node was made using the original V8 engine from Chrome that enables
-            it to run JavaScript.
-            In order to create a run time environment separated from the browser, Node was rewritten using C++ while
-            improving it's efficiency and speed. Several features of Node is Non-Blocking I/O, package management using
-            NPM and Event Driven. Non-blocking means essentially that users that interact with an application built on
-            Node is not limited to singular interactions or requests that traditionally freezes the application until a
-            response is returned. This allows multiple things to happen in the background imitating the concurrency of
-            languages like Java and Python. A common concern for previous JavaScript frameworks and code is the
-            limitation of the global namespace. Node addresses this concern by introducing modules. Modules are the
-            standalone libraries of the JavaScript world. Modules prevents code from being overwritten due to multiple
-            frameworks accidentally using the same namespace.
-        </p>
+            <p>
+                While JavaScript is one of the most popular programming languages in the modern world today, its
+                dependency
+                on having a browser run its code limits it's potential to becoming a general purpose language. What if
+                there is a way to run JavaScript without firing Chrome or Firefox or any browser for that matter? Enter
+                Node.js. As a brain child of Ryan Dahl, Node was made using the original V8 engine from Chrome that
+                enables
+                it to run JavaScript.
+                In order to create a run time environment separated from the browser, Node was rewritten using C++
+                while
+                improving it's efficiency and speed. Several features of Node is Non-Blocking I/O, package management
+                using
+                NPM and Event Driven. Non-blocking means essentially that users that interact with an application built
+                on
+                Node is not limited to singular interactions or requests that traditionally freezes the application
+                until a
+                response is returned. This allows multiple things to happen in the background imitating the concurrency
+                of
+                languages like Java and Python. A common concern for previous JavaScript frameworks and code is the
+                limitation of the global namespace. Node addresses this concern by introducing modules. Modules are the
+                standalone libraries of the JavaScript world. Modules prevents code from being overwritten due to
+                multiple
+                frameworks accidentally using the same namespace.
+            </p>
+        </div>
+
+        <div class="tab" id="tab6">
+            <p>
+                When it comes to persisting data, there's usually two ways to go about it, NoSql databases or
+                traditional Relational databases. So what's the difference between the two and which one should I use?
+                Well depending on the application or purpose, each of these two types of databases have their own
+                advantages. Let's start with an relational database. It's the main stay for the major of companies and
+                big applications. For many years it's the go to database to manage data and still is. Relational
+                databases contains tables and columns just like your typical excel sheet and each of these tables have
+                characteristics such as primary keys to uniquely identify a record or row. What is special about
+                relational databases is that it holds 'relations' to other tables. Just like its namesake, it defines a
+                relationship between two tables by specifying a constraint or a rule using their primary keys. This
+                allows users to utilize SQL queries -- the main method of interacting with a relational database, to
+                its greatest potential. By having a relationship between tables, it conveys real world meaning to the
+                data in the table as an object that have rippling effect to other objects in the world or table.
+                It gives the user the ability to quickly filter or group data in one table with another to derive some
+                sort of valuable business intelligence or meaning. The downside to this is the overhead and the strict
+                formatting one must follow to fully take advantage of the relational schema. It's like setting up a
+                mold for your data that must be followed and at times can be inflexible.
+
+                NoSql databases on the other hand is exactly how it sounds. It does not utilize the SQL language to
+                interact with its contents. Instead it stores it's data in a very horizontal fashion relative to it's
+                relational cousin. NoSql databases do not have a strict mold or rules that govern it's data. It groups
+                its a set hierarchy of database, collections, documents and the content in the object. Users do not
+                have to worry about having the same number of columns or ensure the data have duplicate keys. The data
+                comes in the form of JSON and is stored in the documents which in turn is put under a collection. To
+                establish a comparative view, a collection would be a table and document would be a record. While both
+                types of databases have some resemblance in structure, NoSql databases offer a unique method of
+                interacting with it's data.
+            </p>
         </div>
 
     </div>
